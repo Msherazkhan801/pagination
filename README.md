@@ -5,7 +5,7 @@ const [currentPage, setCurrentPage] = useState(1);
    const indexOfFirstPost = indexOfLastPost - postsPerPage;
    const currentPosts = blogPosts.slice(indexOfFirstPost, indexOfLastPost);
 import React from 'react';
- 
+ ####make a component
 const Paginate = ({ postsPerPage, totalPosts }) => {
    const pageNumbers = [];
  
